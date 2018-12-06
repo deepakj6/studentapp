@@ -1,0 +1,17 @@
+rootProject.name = 'studentapp'
+
+include "applications:registration-server"
+include "applications:allocation-server"
+include "applications:exam-server"
+
+include "components:rest-support"
+include "components:user-service"
+include "components:exam-service"
+include "components:allocation-service"
+
+include "databases:allocations-database"
+include "databases:exam-database"
+include "databases:registration-database"
+
+
+include "platform-services:eureka-server"

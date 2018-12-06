@@ -1,0 +1,7 @@
+apply from: "$projectDir/../build.gradle"
+
+dependencies{
+    compile "org.springframework:spring-jdbc:$springVersion"
+    compile project (":components:rest-support")
+
+}
